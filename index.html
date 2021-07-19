@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://unpkg.com/panzoom@9.4.0/dist/panzoom.min.js"></script>
+    <script src="panzoom.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
+
+    <script src="script.js"></script>
+    <script src="helper.js"></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Miro Clone</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="tools">
+        <button id="btn-save">Save</button>
+        <button id="btn-delete">Delete</button>
+      </div>
+      <div class="holder">
+        <div id="board">
+          <img src="grid.svg" id="bg-grid" alt="Grid Background" />
+          <svg id="svg"></svg>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
